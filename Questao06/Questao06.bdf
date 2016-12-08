@@ -653,10 +653,6 @@ agreement for further details.
 	(pt 848 192)
 )
 (connector
-	(pt 816 224)
-	(pt 816 488)
-)
-(connector
 	(pt 816 488)
 	(pt 816 536)
 )
@@ -665,36 +661,12 @@ agreement for further details.
 	(pt 1016 408)
 )
 (connector
-	(pt 800 408)
-	(pt 1016 408)
-)
-(connector
 	(pt 1016 168)
-	(pt 1016 144)
-)
-(connector
-	(pt 800 144)
 	(pt 1016 144)
 )
 (connector
 	(pt 984 472)
 	(pt 976 472)
-)
-(connector
-	(pt 800 192)
-	(pt 800 408)
-)
-(connector
-	(pt 800 408)
-	(pt 800 456)
-)
-(connector
-	(pt 800 128)
-	(pt 800 144)
-)
-(connector
-	(pt 800 144)
-	(pt 800 192)
 )
 (connector
 	(pt 944 192)
@@ -1121,10 +1093,36 @@ agreement for further details.
 	(pt 960 656)
 	(pt 1016 656)
 )
-(junction (pt 800 408))
+(connector
+	(pt 816 224)
+	(pt 816 488)
+)
+(connector
+	(pt 1016 408)
+	(pt 800 408)
+)
+(connector
+	(pt 800 192)
+	(pt 800 408)
+)
+(connector
+	(pt 800 408)
+	(pt 800 456)
+)
+(connector
+	(pt 1016 144)
+	(pt 800 144)
+)
+(connector
+	(pt 800 128)
+	(pt 800 144)
+)
+(connector
+	(pt 800 144)
+	(pt 800 192)
+)
 (junction (pt 816 488))
 (junction (pt 800 192))
-(junction (pt 800 144))
 (junction (pt 368 328))
 (junction (pt 352 328))
 (junction (pt 384 328))
@@ -1165,3 +1163,5 @@ agreement for further details.
 (junction (pt 976 472))
 (junction (pt 960 656))
 (junction (pt 664 656))
+(junction (pt 800 408))
+(junction (pt 800 144))
